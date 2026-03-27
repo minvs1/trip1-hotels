@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip1 — Book Hotels with Bitcoin & Crypto</title>
+    <meta name="description" content="Trip1 is the crypto-native hotel booking platform. Book 2.1M+ hotels worldwide and pay with Bitcoin, Ethereum, USDT, and 50+ cryptocurrencies.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #1e2939;
+            background: #ffffff;
+        }
+
+        /* Hero */
+        .hero {
+            background: #101828;
+            color: #ffffff;
+            padding: 80px 24px;
+            text-align: center;
+        }
+        .hero svg {
+            width: 140px;
+            height: auto;
+            margin-bottom: 32px;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.2;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            color: #d1d5dc;
+            max-width: 600px;
+            margin: 0 auto 32px;
+            line-height: 1.6;
+        }
+        .btn {
+            display: inline-block;
+            background: #ffffff;
+            color: #101828;
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 14px 36px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .btn:hover { opacity: 0.9; }
+
+        /* Features */
+        .features {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 64px 24px;
+        }
+        .features h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 32px;
+        }
+        .card {
+            text-align: center;
+            padding: 24px;
+        }
+        .card .icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        .card h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .card p {
+            font-size: 0.95rem;
+            color: #4a5565;
+            line-height: 1.5;
+        }
+
+        /* CTA */
+        .cta {
+            background: #f9fafb;
+            text-align: center;
+            padding: 64px 24px;
+        }
+        .cta h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+        .cta p {
+            font-size: 1.05rem;
+            color: #4a5565;
+            margin-bottom: 24px;
+        }
+        .btn-dark {
+            display: inline-block;
+            background: #101828;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 14px 36px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .btn-dark:hover { opacity: 0.9; }
+
+        /* Links */
+        .links {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 48px 24px;
+            text-align: center;
+        }
+        .links h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+        .links a {
+            display: inline-block;
+            margin: 8px 16px;
+            color: #101828;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            background: #101828;
+            color: #d1d5dc;
+            text-align: center;
+            padding: 32px 24px;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.75rem; }
+            .hero p { font-size: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <svg width="99" height="34" viewBox="0 0 99 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_519_2761)">
+                <path d="M66.8943 7.2871H99.0569L60.5693 25.4439V19.3251L81.5811 11.0252L70.0542 12.3437L66.8943 7.2871Z" fill="#D1D5DC"/>
+                <path d="M51.7852 5.15559C51.7852 5.15559 53.5629 4.66247 54.5139 4.27187C55.4648 3.88127 56.9605 3.0276H60.5692V25.4474H55.8693V8.70105C55.8693 8.70105 54.5866 9.21007 53.7811 9.42569C52.9756 9.64132 51.8189 9.78801 51.8189 9.78801L51.7869 5.15382L51.7852 5.15559Z" fill="white"/>
+                <path d="M6.62661 11.1931V19.8871C6.62661 20.4933 6.77032 20.9316 7.05952 21.2003C7.34694 21.4707 7.83306 21.605 8.51613 21.605H10.5973V25.4333H7.77984C4.00258 25.4333 2.11306 23.5739 2.11306 19.8535V11.1913H0V7.46031H2.11306V3.01523H6.62661V7.46031H10.5955V11.1913H6.62661V11.1931Z" fill="white"/>
+                <path d="M18.9679 8.01351C19.8958 7.47268 20.9585 7.20226 22.1526 7.20226V11.9708H20.9674C19.5587 11.9708 18.4959 12.3066 17.7827 12.9764C17.0677 13.6463 16.7111 14.8146 16.7111 16.4795V25.4333H12.2295V7.46207H16.7111V10.2528C17.2877 9.30197 18.04 8.55434 18.9679 8.01351Z" fill="white"/>
+                <path d="M23.8648 4.5582C23.3414 4.05094 23.0806 3.4182 23.0806 2.65998C23.0806 1.90175 23.3414 1.27078 23.8648 0.761761C24.3881 0.25451 25.0446 0 25.8341 0C26.6236 0 27.2801 0.25451 27.8035 0.761761C28.3269 1.27078 28.5877 1.90352 28.5877 2.65998C28.5877 3.41644 28.3269 4.04918 27.8035 4.5582C27.2801 5.06721 26.6236 5.31996 25.8341 5.31996C25.0446 5.31996 24.3881 5.06545 23.8648 4.5582ZM28.043 7.46208V25.435H23.5614V7.46208H28.043Z" fill="white"/>
+                <path d="M37.7279 7.99761C38.741 7.44617 39.8996 7.17046 41.2018 7.17046C42.717 7.17046 44.0884 7.54869 45.3162 8.30514C46.5439 9.06337 47.5144 10.138 48.2294 11.5325C48.9444 12.927 49.301 14.5442 49.301 16.3823C49.301 18.2204 48.9426 19.8482 48.2294 21.2657C47.5144 22.6832 46.5439 23.7807 45.3162 24.5584C44.0884 25.3378 42.717 25.7267 41.2018 25.7267C39.8996 25.7267 38.7534 25.4563 37.7599 24.9154C36.7681 24.3746 35.9609 23.6941 35.3434 22.8723V34H30.8618V7.46208H35.3434V10.0567C35.92 9.23481 36.7149 8.54728 37.7279 7.99584V7.99761ZM44.0654 13.5774C43.6271 12.7873 43.0523 12.1882 42.3373 11.7764C41.6223 11.3663 40.8488 11.1595 40.0167 11.1595C39.1846 11.1595 38.4429 11.3699 37.7279 11.7923C37.0129 12.2147 36.4363 12.8262 35.9999 13.6251C35.5617 14.4257 35.3434 15.366 35.3434 16.4477C35.3434 17.5293 35.5617 18.4696 35.9999 19.2703C36.4363 20.0709 37.0129 20.6807 37.7279 21.1031C38.4429 21.5255 39.2058 21.7358 40.0167 21.7358C40.8275 21.7358 41.6223 21.5202 42.3373 21.0872C43.0523 20.6542 43.6289 20.0391 44.0654 19.2385C44.5018 18.4378 44.7218 17.4869 44.7218 16.3841C44.7218 15.2812 44.5036 14.3674 44.0654 13.5774Z" fill="white"/>
+            </g>
+            <defs>
+                <clipPath id="clip0_519_2761">
+                    <rect width="99" height="34" fill="white"/>
+                </clipPath>
+            </defs>
+        </svg>
+        <h1>Book Hotels with Bitcoin & Crypto</h1>
+        <p>Trip1 is the crypto-native hotel booking platform with 2.1M+ properties across 190+ countries. Pay with Bitcoin, Ethereum, USDT, and 50+ cryptocurrencies.</p>
+        <a href="https://trip1.com" class="btn">Start Booking</a>
+    </section>
+
+    <section class="features">
+        <h2>Why Trip1?</h2>
+        <div class="grid">
+            <div class="card">
+                <div class="icon">&#8383;</div>
+                <h3>50+ Cryptocurrencies</h3>
+                <p>Pay with Bitcoin, Ethereum, USDT, and dozens of other major cryptocurrencies.</p>
+            </div>
+            <div class="card">
+                <div class="icon">&#127758;</div>
+                <h3>2.1M+ Hotels</h3>
+                <p>Access properties across 190+ countries worldwide — from budget stays to luxury resorts.</p>
+            </div>
+            <div class="card">
+                <div class="icon">&#9889;</div>
+                <h3>Instant Confirmation</h3>
+                <p>Book and receive your confirmation immediately. No waiting, no hassle.</p>
+            </div>
+            <div class="card">
+                <div class="icon">&#128176;</div>
+                <h3>Best Price Guarantee</h3>
+                <p>Competitive rates with no hidden fees. What you see is what you pay.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Book?</h2>
+        <p>Browse our travel guides for destination inspiration, then book your next stay with crypto.</p>
+        <a href="https://trip1.com/travel-guides" class="btn-dark">Explore Travel Guides</a>
+    </section>
+
+    <section class="links">
+        <h2>Follow Trip1</h2>
+        <a href="https://trip1.com">Website</a>
+        <a href="https://medium.com/@tomas_73821">Medium</a>
+        <a href="https://trip1.blogspot.com">Blog</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 <a href="https://trip1.com">Trip1</a> — Book Hotels with Bitcoin & Crypto</p>
+    </footer>
+
+</body>
+</html>
